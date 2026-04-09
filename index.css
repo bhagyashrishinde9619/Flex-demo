@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*containers */
+.contanier {
+  display: flex;
+  height: 100vh;
+  
+}
+/*Left side*/
+.left{
+  flex: 1;
+  background: rgb(71, 71, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left img{
+  width: 250px;
+}
+
+/*right side*/
+.right{
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.right h1{
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.right p{
+  margin-bottom: 20px;
+  color: gray;
+  text-align: center;
+}
+/*form*/
+form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* Label styling */
+label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+input{
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.forgot-link {
+  align-self: flex-end; /* Pushes "Forgot password" to the right */
+  margin-bottom: 10px;
+}
+
+/* Set a style for all buttons */
+button {
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background:linear-gradient(to right,#3b63f6,#60a5fa);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+/*link*/
+a{
+  font-size: 13px;
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+
+button:hover{
+  opacity: 0.9;
+}
+
+/* Centers the bottom text */
+.footer-text {
+  text-align: center;
+  margin-top: 20px !important; 
+}
